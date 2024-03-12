@@ -22,7 +22,7 @@ class OutputManager:
         Returns:
             None
         """
-        #TODO переделать тест
+
         if not isinstance(data, list):
             raise TypeError('Data must be a list.')
 
